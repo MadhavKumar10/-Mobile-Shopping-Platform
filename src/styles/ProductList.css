@@ -1,0 +1,51 @@
+/* src/components/ProductList.css */
+
+.product-list {
+  margin: 20px;
+}
+
+.category-section {
+  margin-bottom: 40px;
+}
+
+.category-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333;
+  border-bottom: 2px solid #f1f1f1;
+  padding-bottom: 10px;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.product-item {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.product-item img {
+  display: block;         /* Ensures the image is a block element */
+  margin: 0 auto;         /* Centers the image horizontally */
+  width: 100%;            /* Make the image fill its container width */
+  height: 100px;          /* Set a fixed height for consistency */
+  object-fit: cover;      /* Ensure the image covers the area without stretching */
+  border-radius: 8px;
+}
+
+.product-item h3 {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.product-item p {
+  font-size: 1rem;
+  color: #666;
+}

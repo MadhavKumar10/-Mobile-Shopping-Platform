@@ -1,0 +1,50 @@
+/* src/styles/ProductDetails.css */
+
+.product-details {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  text-align: left;
+}
+
+.product-details img {
+  width: 100%;
+  max-width: 300px; /* Prevents the image from becoming too large */
+  height: auto; /* Maintains aspect ratio */
+  display: block;
+  margin: 0 auto 1rem; /* Center the image and add spacing */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-details h1 {
+  font-size: 2rem;
+  margin: 1rem 0;
+  color: #333;
+}
+
+.product-details p {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  color: #555;
+}
+
+.product-details strong {
+  color: #333;
+  font-weight: bold;
+}
+
+.product-details .details-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 1rem;
+  align-items: start;
+}
+
+.details-grid .details-info {
+  text-align: left;
+}
