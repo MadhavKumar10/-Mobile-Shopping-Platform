@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/-Mobile-Shopping-Platform/static/css/main.b27b97b4.css",
+    "main.js": "/-Mobile-Shopping-Platform/static/js/main.c712485b.js",
+    "static/media/banner1.jpg": "/-Mobile-Shopping-Platform/static/media/banner1.922bfc764522892143d9.jpg",
+    "static/media/banner2.jpg": "/-Mobile-Shopping-Platform/static/media/banner2.b2f820fb6f598577ac80.jpg",
+    "static/media/banner3.jpg": "/-Mobile-Shopping-Platform/static/media/banner3.bb22ec738d99e23f9c55.jpg",
+    "index.html": "/-Mobile-Shopping-Platform/index.html",
+    "main.b27b97b4.css.map": "/-Mobile-Shopping-Platform/static/css/main.b27b97b4.css.map",
+    "main.c712485b.js.map": "/-Mobile-Shopping-Platform/static/js/main.c712485b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b27b97b4.css",
+    "static/js/main.c712485b.js"
+  ]
+}
